@@ -23,7 +23,7 @@ CLEANFILES += $(systemduserunit_DATA)
 
 desktopdir = $(datadir)/applications
 desktop_in_in_files = data/xdg-desktop-portal-gtk.desktop.in.in
-dist_desktop_DATA = xdg-desktop-portal-gtk.desktop
+desktop_DATA = xdg-desktop-portal-gtk.desktop
 
 CLEANFILES += $(dist_desktop_DATA)
 
